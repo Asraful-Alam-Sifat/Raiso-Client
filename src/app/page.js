@@ -1,5 +1,6 @@
 
 import HeroBanner from "@/compnents/HeroBanner/HeroBanner";
+import Stats from "@/compnents/HeroBanner/Stats";
 import Navbar from "@/compnents/Navbar/Navbar";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="relative">
         <Navbar/>
         <HeroBanner />
+        <Stats/>
     </div>
   );
 }

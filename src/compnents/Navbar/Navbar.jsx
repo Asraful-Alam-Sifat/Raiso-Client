@@ -28,7 +28,8 @@ const Navbar = () => {
           "bg-black/30",
           "backdrop-blur-md",
           "shadow-sm",
-          "border-zinc-900",
+          "border-gray-500",
+          "dark:border-zinc-900",
         );
       }
     };
